@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Cake from "../components/Cake.js";
+import CakeList from "../components/CakeList.js";
 
 const CakeContainer = () => {
 
@@ -49,9 +49,7 @@ const CakeContainer = () => {
 
   return (
     <>
-        <Cake />
-        <Cake />
-        <Cake />
+        <CakeList cakes={listOfCakes} />
     </>
   )
 }
