@@ -51,6 +51,8 @@ const CakeContainer = () => {
 	const addNewCake = (newCake) => {
 		console.log(newCake);
 
+		const updatedCakesList = [...listOfCakes, newCake];
+		setListOfCakes(updatedCakesList);
 		
 	}
 
