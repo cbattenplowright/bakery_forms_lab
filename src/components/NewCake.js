@@ -12,12 +12,12 @@ const NewCake = ({ addNewCake }) => {
 
         const newCake = {
             cakeName: cakeName,
-            ingredients: ingredients,
+            ingredients: ingredients.split(', '),
             price: price,
             rating: rating
         }
 
-        console.log(newCake);
+        addNewCake(newCake);
     }
 
     return (
