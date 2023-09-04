@@ -7,9 +7,7 @@ const CakeList = ({ cakes }) => {
     });
     
     return(
-        <>
             <ul>{cakeComponents}</ul>
-        </>
     );
 }
  
